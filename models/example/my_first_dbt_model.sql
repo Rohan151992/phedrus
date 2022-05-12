@@ -11,14 +11,14 @@
 
 with source_data as (
 
-    select 1 as id CHANGES TO DIRECTLY PUSH FROM APP
+    select 1 as id CHANGES TO DIRECTLY PUSH FROM USER PHEDURS
     union all
     select null as id
 
 )
 
 select *
-from source_data CHANGES TO DIRECTLY PUSH FROM APP
+from source_data CHANGES TO DIRECTLY PUSH FROM USER PHEDURS
 
 /*
     Uncomment the line below to remove records with null `id` values
