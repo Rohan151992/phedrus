@@ -11,14 +11,14 @@
 
 with source_data as (
 
-    select 1 as id CHANGES FROM APP 1
+    select 1 as id CHANGES FROM USER 1
     union all
     select null as id
 
 )
 
 select *
-from source_data CHANGES FROM APP 1
+from source_data CHANGES FROM USER 1
 
 /*
     Uncomment the line below to remove records with null `id` values
