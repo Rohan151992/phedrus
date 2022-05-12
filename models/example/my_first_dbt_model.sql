@@ -18,7 +18,7 @@ with source_data as (
 )
 
 select *
-from source_data CHANGES FROM APP AGAIN
+from source_data CHANGES FROM DIFF USER AGAIN
 
 /*
     Uncomment the line below to remove records with null `id` values
