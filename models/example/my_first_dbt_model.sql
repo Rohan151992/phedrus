@@ -11,7 +11,7 @@
 
 with source_data as (
 
-    select 1 as id
+    select 1 as id CHANGES FROM DIFF USER
     union all
     select null as id
 
